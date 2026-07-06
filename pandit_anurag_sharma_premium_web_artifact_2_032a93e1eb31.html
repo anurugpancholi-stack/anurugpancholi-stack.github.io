@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head><style>
+@font-face {
+  font-family: "Optimistic";
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url("/fonts/OptimisticAI_VF_Optimized.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Optimistic Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/OptimisticMono_W_TextRegular.woff2") format("woff2");
+}
+:where(html) {
+  font-family: "Optimistic", system-ui, sans-serif;
+}
+:where(code, pre, kbd, samp) {
+  font-family: "Optimistic Mono", ui-monospace, monospace;
+}
+</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>पंडित अनुराग शर्मा | ज्योतिष एवं पूजा-पाठ विशेषज्ञ, बड़नगर</title>
+<meta name="description" content="पंडित अनुराग शर्मा - बड़नगर, मध्य प्रदेश के प्रसिद्ध ज्योतिषाचार्य। कुंडली मिलान, विवाह मुहूर्त, गृह प्रवेश, कालसर्प दोष निवारण, मांगलिक पूजा हेतु संपर्क करें। 10+ वर्षों का अनुभव।">
+<meta name="keywords" content="Pandit Anurag Sharma, ज्योतिष, बड़नगर पंडित, कुंडली मिलान, विवाह मुहूर्त, गृह प्रवेश, कालसर्प दोष, मांगलिक दोष, पूजा पाठ, Barnagar Pandit">
+<meta name="author" content="Pandit Anurag Sharma">
+<meta property="og:title" content="पंडित अनुराग शर्मा | ज्योतिष एवं पूजा-पाठ विशेषज्ञ">
+<meta property="og:description" content="बड़नगर के अनुभवी ज्योतिषाचार्य - सभी प्रकार की पूजा, कुंडली एवं मुहूर्त के लिए संपर्क करें">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#5C0A17">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@0;1&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+    :root {
+        --maroon: #5C0A17;
+        --maroon-dark: #3A0610;
+        --gold: #D4AF37;
+        --gold-light: #F5D76E;
+        --cream: #FFF8E7;
+        --text-dark: #2C1810;
+    }
+    
+    * {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        font-family: 'Tiro Devanagari Hindi', 'Poppins', serif;
+        background-color: var(--cream);
+        color: var(--text-dark);
+        overflow-x: hidden;
+    }
+    
+    .hero-gradient {
+        background: linear-gradient(135deg, var(--maroon-dark) 0%, var(--maroon) 50%, #7A1020 100%);
+    }
+    
+    .gold-gradient {
+        background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%);
+    }
+    
+    .text-gold {
+        color: var(--gold);
+    }
+    
+    .glass-card {
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(212, 175, 55, 0.2);
+    }
+    
+    .mandala-bg {
+        background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23D4AF37' fill-opacity='0.05'%3E%3Cpath d='M50 0C22.386 0 0 22.386 0 50s22.386 50 50 50 50-22.386 50-50S77.614 0 50 0zm0 10c22.091 0 40 17.909 40 40S72.091 90 50 90 10 72.091 10 50 27.909 10 50 10zm0 10c-16.569 0-30 13.431-30 30s13.431 30 30 30 30-13.431 30-30-13.431-30-30-30zm0 10c11.046 0 20 8.954 20 20s-8.954 20-20 20-20-8.954-20-20 8.954-20 20-20z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+    
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+    }
+    
+    .animate-fade-in-up {
+        animation: fadeInUp 0.8s ease-out forwards;
+    }
+    
+    .animate-float {
+        animation: float 3s ease-in-out infinite;
+    }
+    
+    .service-card {
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .service-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 40px rgba(92, 10, 23, 0.15);
+    }
+    
+    .btn-primary {
+        background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%);
+        color: var(--maroon-dark);
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+    }
+    
+    .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(212, 175, 55, 0.5);
+    }
+    
+    .nav-link {
+        position: relative;
+        transition: color 0.3s ease;
+    }
+    
+    .nav-link::after {
+        content: '';
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: var(--gold);
+        transition: width 0.3s ease;
+    }
+    
+    .nav-link:hover::after {
+        width: 100%;
+    }
+    
+    .floating-btn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 999;
+        animation: float 3s ease-in-out infinite;
+    }
+    
+    @media (max-width: 640px) {
+        .floating-btn {
+            bottom: 15px;
+            right: 15px;
+        }
+    }
+</style>
+</head>
+<body class="mandala-bg">
+
+<!-- Navigation -->
+<nav class="fixed w-full top-0 z-50 glass-card shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16 md:h-20">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 md:w-12 md:h-12 gold-gradient rounded-full flex items-center justify-center">
+                    <i class="fas fa-om text-white text-xl md:text-2xl"></i>
+                </div>
+                <div>
+                    <h1 class="text-lg md:text-xl font-bold" style="color: var(--maroon);">पंडित अनुराग शर्मा</h1>
+                    <p class="text-xs text-gray-600 hidden sm:block">ज्योतिषाचार्य, बड़नगर</p>
+                </div>
+            </div>
+            
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#home" class="nav-link text-gray-700 hover:text-[var(--maroon)] font-medium">मुख्य पृष्ठ</a>
+                <a href="#services" class="nav-link text-gray-700 hover:text-[var(--maroon)] font-medium">सेवाएं</a>
+                <a href="#about" class="nav-link text-gray-700 hover:text-[var(--maroon)] font-medium">परिचय</a>
+                <a href="#contact" class="nav-link text-gray-700 hover:text-[var(--maroon)] font-medium">संपर्क</a>
+                <a href="tel:+919179746121" class="btn-primary px-6 py-2 rounded-full font-semibold">
+                    <i class="fas fa-phone-alt mr-2"></i>कॉल करें
+                </a>
+            </div>
+            
+            <button id="mobile-menu-btn" class="md:hidden text-[var(--maroon)] text-2xl">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </div>
+    
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
+        <div class="px-4 py-3 space-y-3">
+            <a href="#home" class="block py-2 text-gray-700 hover:text-[var(--maroon)] font-medium">मुख्य पृष्ठ</a>
+            <a href="#services" class="block py-2 text-gray-700 hover:text-[var(--maroon)] font-medium">सेवाएं</a>
+            <a href="#about" class="block py-2 text-gray-700 hover:text-[var(--maroon)] font-medium">परिचय</a>
+            <a href="#contact" class="block py-2 text-gray-700 hover:text-[var(--maroon)] font-medium">संपर्क</a>
+            <a href="tel:+919179746121" class="block w-full text-center btn-primary px-6 py-3 rounded-full font-semibold">
+                <i class="fas fa-phone-alt mr-2"></i>अभी कॉल करें
+            </a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero-gradient min-h-screen flex items-center pt-20 pb-12 px-4">
+    <div class="max-w-7xl mx-auto w-full">
+        <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+            <div class="text-white space-y-6 animate-fade-in-up">
+                <div class="inline-block">
+                    <span class="gold-gradient px-4 py-2 rounded-full text-[var(--maroon)] text-sm font-semibold">
+                        <i class="fas fa-star mr-2"></i>10+ वर्षों का अनुभव
+                    </span>
+                </div>
+                <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
+                    पंडित <span class="text-gold">अनुराग शर्मा</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-gold font-semibold">
+                    ज्योतिष, पूजा-पाठ, कुंडली विशेषज्ञ
+                </p>
+                <p class="text-base md:text-lg text-gray-200 leading-relaxed">
+                    बड़नगर, मध्य प्रदेश के अनुभवी ज्योतिषाचार्य। सभी प्रकार की पूजा, कुंडली मिलान, विवाह मुहूर्त एवं दोष निवारण हेतु संपर्क करें।
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                    <a href="tel:+919179746121" class="btn-primary px-8 py-4 rounded-full font-bold text-lg text-center">
+                        <i class="fas fa-phone-alt mr-2"></i>अभी कॉल करें
+                    </a>
+                    <a href="https://wa.me/919179746121" target="_blank" class="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-full font-bold text-lg text-center transition-all">
+                        <i class="fab fa-whatsapp mr-2 text-xl"></i>WhatsApp
+                    </a>
+                </div>
+            </div>
+            
+            <div class="flex justify-center animate-fade-in-up" style="animation-delay: 0.2s;">
+                <div class="relative">
+                    <div class="w-72 h-72 md:w-96 md:h-96 gold-gradient rounded-full p-2 animate-float">
+                        <div class="w-full h-full bg-white rounded-full flex items-center justify-center overflow-hidden border-4 border-white">
+                            <div class="text-center">
+                                <i class="fas fa-user text-[var(--maroon)] text-8xl md:text-9xl opacity-20"></i>
+                                <p class="text-[var(--maroon)] mt-4 text-sm">प्रोफाइल छवि</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute -bottom-4 -right-4 bg-white rounded-full p-4 shadow-xl">
+                        <i class="fas fa-om text-[var(--maroon)] text-4xl"></i>
+                    </div>
+                    <div class="absolute -top-4 -left-4 bg-white rounded-full p-3 shadow-xl">
+                        <i class="fas fa-hands-praying text-[var(--gold)] text-3xl"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Quick Stats -->
+<section class="py-8 md:py-12 -mt-8 relative z-10">
+    <div class="max-w-7xl mx-auto px-4">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+            <div class="glass-card rounded-2xl p-6 text-center shadow-lg">
+                <i class="fas fa-users text-[var(--gold)] text-3xl mb-3"></i>
+                <h3 class="text-2xl md:text-3xl font-bold text-[var(--maroon)]">5000+</h3>
+                <p class="text-sm text-gray-600 mt-1">संतुष्ट यजमान</p>
+            </div>
+            <div class="glass-card rounded-2xl p-6 text-center shadow-lg">
+                <i class="fas fa-ring text-[var(--gold)] text-3xl mb-3"></i>
+                <h3 class="text-2xl md:text-3xl font-bold text-[var(--maroon)]">1000+</h3>
+                <p class="text-sm text-gray-600 mt-1">विवाह मुहूर्त</p>
+            </div>
+            <div class="glass-card rounded-2xl p-6 text-center shadow-lg">
+                <i class="fas fa-calendar-check text-[var(--gold)] text-3xl mb-3"></i>
+                <h3 class="text-2xl md:text-3xl font-bold text-[var(--maroon)]">10+</h3>
+                <p class="text-sm text-gray-600 mt-1">वर्ष अनुभव</p>
+            </div>
+            <div class="glass-card rounded-2xl p-6 text-center shadow-lg">
+                <i class="fas fa-star text-[var(--gold)] text-3xl mb-3"></i>
+                <h3 class="text-2xl md:text-3xl font-bold text-[var(--maroon)]">4.9</h3>
+                <p class="text-sm text-gray-600 mt-1">रेटिंग</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="py-16 md:py-24 px-4">
+    <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-12 md:mb-16">
+            <div class="inline-block mb-4">
+                <span class="gold-gradient px-6 py-2 rounded-full text-[var(--maroon)] text-sm font-bold">
+                    हमारी सेवाएं
+                </span>
+            </div>
+            <h2 class="text-3xl md:text-5xl font-bold text-[var(--maroon)] mb-4">
+                विशेषज्ञ ज्योतिष एवं पूजा सेवाएं
+            </h2>
+            <p class="text-gray-600 max-w-2xl mx-auto text-base md:text-lg">
+                वैदिक परंपरा के अनुसार सभी प्रकार की पूजा, अनुष्ठान एवं ज्योतिषीय परामर्श
+            </p>
+        </div>
+        
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+            <!-- Service 1 -->
+            <div class="service-card glass-card rounded-2xl p-6 md:p-8 shadow-lg">
+                <div class="w-16 h-16 gold-gradient rounded-2xl flex items-center justify-center mb-6">
+                    <i class="fas fa-heart text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl md:text-2xl font-bold text-[var(--maroon)] mb-3">कुंडली मिलान</h3>
+                <p class="text-gray-600 leading-relaxed">
+                    विवाह पूर्व वर-वधू की कुंडली का विस्तृत मिलान एवं गुण मिलान। अष्टकूट दोष एवं मांगलिक दोष का समाधान।
+                </p>
+                <div class="mt-4 pt-4 border-t border-gray-200">
+                    <a href="https://wa.me/919179746121?text=कुंडली मिलान के लिए संपर्क" class="text-[var(--gold)] font-semibold hover:text-[var(--maroon)] transition">
+                        जानकारी प्राप्त करें <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Service 2 -->
+            <div class="service-card glass-card rounded-2xl p-6 md:p-8 shadow-lg">
+                <div class="w-16 h-16 gold-gradient rounded-2xl flex items-center justify-center mb-6">
+                    <i class="fas fa-calendar-days text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl md:text-2xl font-bold text-[var(--maroon)] mb-3">विवाह मुहूर्त</h3>
+                <p class="text-gray-600 leading-relaxed">
+                    शुभ विवाह मुहूर्त, लग्न एवं तिथि का निर्धारण। पंचांग के अनुसार सर्वोत्तम समय का चयन।
+                </p>
+                <div class="mt-4 pt-4 border-t border-gray-200">
+                    <a href="https://wa.me/919179746121?text=विवाह मुहूर्त के लिए संपर्क" class="text-[var(--gold)] font-semibold hover:text-[var(--maroon)] transition">
+                        जानकारी प्राप्त करें <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Service 3 -->
+            <div class="service-card glass-card rounded-2xl p-6 md:p-8 shadow-lg">
+                <div class="w-16 h-16 gold-gradient rounded-2xl flex items-center justify-center mb-6">
+                    <i class="fas fa-home text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl md:text-2xl font-bold text-[var(--maroon)] mb-3">गृह प्रवेश</h3>
+                <p class="text-gray-600 leading-relaxed">
+                    नवीन गृह में प्रवेश हेतु शुभ मुहूर्त, वास्तु शांति एवं गृह प्रवेश पूजा। सभी दोषों का निवारण।
+                </p>
+                <div class="mt-4 pt-4 border-t border-gray-200">
+                    <a href="https://wa.me/919179746121?text=गृह प्रवेश पूजा के लिए संपर्क" class="text-[var(--gold)] font-semibold hover:text-[var(--maroon)] transition">
+                        जानकारी प्राप्त करें <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Service 4 -->
+            <div class="service-card glass-card rounded-2xl p-6 md:p-8 shadow-lg">
+                <div class="w-16 h-16 gold-gradient rounded-2xl flex items-center justify-center mb-6">
+                    <i class="fas fa-baby text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl md:text-2xl font-bold text-[var(--maroon)] mb-3">नामकरण संस्कार</h3>
+                <p class="text-gray-600 leading-relaxed">
+                    नवजात शिशु के लिए वैदिक पद्धति से नामकरण एवं नक्षत्रानुसार शुभ नाम का चयन। संपूर्ण संस्कार।
+                </p>
+                <div class="mt-4 pt-4 border-t border-gray-200">
+                    <a href="https://wa.me/919179746121?text=नामकरण संस्कार के लिए संपर्क" class="text-[var(--gold)] font-semibold hover:text-[var(--maroon)] transition">
+                        जानकारी प्राप्त करें <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Service 5 -->
+            <div class="service-card glass-card rounded-2xl p-6 md:p-8 shadow-lg">
+                <div class="w-16 h-16 gold-gradient rounded-2xl flex items-center justify-center mb-6">
+                    <i class="fas fa-dragon text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl md:text-2xl font-bold text-[var(--maroon)] mb-3">कालसर्प दोष निवारण</h3>
+                <p class="text-gray-600 leading-relaxed">
+                    कालसर्प दोष शांति पूजा एवं नाग पूजा। उज्जैन महाकाल में विशेष अनुष्ठान द्वारा दोष मुक्ति।
+                </p>
+                <div class="mt-4 pt-4 border-t border-gray-200">
+                    <a href="https://wa.me/919179746121?text=कालसर्प दोष निवारण के लिए संपर्क" class="text-[var(--gold)] font-semibold hover:text-[var(--maroon)] transition">
+                        जानकारी प्राप्त करें <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Service 6 -->
+            <div class="service-card glass-card rounded-2xl p-6 md:p-8 shadow-lg">
+                <div class="w-16 h-16 gold-gradient rounded-2xl flex items-center justify-center mb-6">
+                    <i class="fas fa-fire text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl md:text-2xl font-bold text-[var(--maroon)] mb-3">मांगलिक दोष पूजा</h3>
+                <p class="text-gray-600 leading-relaxed">
+                    मांगलिक दोष शांति, भात पूजा एवं कुंभ विवाह। विवाह में आने वाली बाधाओं का निवारण।
+                </p>
+                <div class="mt-4 pt-4 border-t border-gray-200">
+                    <a href="https://wa.me/919179746121?text=मांगलिक दोष पूजा के लिए संपर्क" class="text-[var(--gold)] font-semibold hover:text-[var(--maroon)] transition">
+                        जानकारी प्राप्त करें <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-16 md:py-24 px-4 hero-gradient">
+    <div class="max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+            <div class="order-2 md:order-1">
+                <div class="relative">
+                    <div class="glass-card rounded-3xl p-8 md:p-12 shadow-2xl">
+                        <i class="fas fa-quote-left text-[var(--gold)] text-4xl mb-6"></i>
+                        <p class="text-gray-700 text-lg leading-relaxed mb-6">
+                            "ज्योतिष शास्त्र केवल भविष्य बताने का माध्यम नहीं, बल्कि जीवन की समस्याओं का समाधान खोजने का वैदिक विज्ञान है। प्रत्येक यजमान की समस्या का समाधान श्रद्धा एवं विश्वास से किया जाता है।"
+                        </p>
+                        <div class="flex items-center">
+                            <div class="w-16 h-16 gold-gradient rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-om text-white text-2xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-[var(--maroon)] text-lg">पं. अनुराग शर्मा</h4>
+                                <p class="text-gray-600 text-sm">ज्योतिषाचार्य</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="order-1 md:order-2 text-white space-y-6">
+                <div class="inline-block">
+                    <span class="bg-white/20 px-4 py-2 rounded-full text-sm font-semibold">
+                        <i class="fas fa-info-circle mr-2"></i>परिचय
+                    </span>
+                </div>
+                <h2 class="text-3xl md:text-5xl font-bold leading-tight">
+                    10+ वर्षों का <span class="text-gold">अनुभव</span>
+                </h2>
+                <p class="text-lg text-gray-200 leading-relaxed">
+                    पंडित अनुराग शर्मा बड़नगर, मध्य प्रदेश के सुप्रसिद्ध ज्योतिषाचार्य हैं। वैदिक ज्योतिष, हस्तरेखा, अंक शास्त्र एवं वास्तु शास्त्र में पारंगत।
+                </p>
+                <div class="space-y-4">
+                    <div class="flex items-start">
+                        <div class="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
+                            <i class="fas fa-graduation-cap text-gold text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg mb-1">शिक्षा एवं दीक्षा</h4>
+                            <p class="text-gray-300 text-sm">काशी एवं उज्जैन के विद्वान आचार्यों से ज्योतिष एवं कर्मकांड की शिक्षा</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
+                            <i class="fas fa-location-dot text-gold text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg mb-1">स्थान</h4>
+                            <p class="text-gray-300 text-sm">बड़नगर, जिला उज्जैन, मध्य प्रदेश - समस्त भारत में सेवाएं उपलब्ध</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
+                            <i class="fas fa-award text-gold text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg mb-1">विशेषता</h4>
+                            <p class="text-gray-300 text-sm">कुंडली विश्लेषण, विवाह मुहूर्त, दोष निवारण एवं वैदिक पूजा-पाठ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-16 md:py-20 px-4">
+    <div class="max-w-5xl mx-auto">
+        <div class="gold-gradient rounded-3xl p-8 md:p-12 text-center shadow-2xl">
+            <i class="fas fa-hands-praying text-[var(--maroon)] text-5xl mb-6"></i>
+            <h2 class="text-3xl md:text-4xl font-bold text-[var(--maroon)] mb-4">
+                ज्योतिषीय परामर्श हेतु अभी संपर्क करें
+            </h2>
+            <p class="text-[var(--maroon-dark)] text-lg mb-8 max-w-2xl mx-auto">
+                आपकी समस्या का समाधान एवं शुभ मुहूर्त की जानकारी के लिए तुरंत कॉल करें
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="tel:+919179746121" class="bg-white text-[var(--maroon)] px-10 py-4 rounded-full font-bold text-xl shadow-lg hover:shadow-2xl transition-all w-full sm:w-auto">
+                    <i class="fas fa-phone-alt mr-3"></i>9179746121
+                </a>
+                <a href="https://wa.me/919179746121" target="_blank" class="bg-green-600 hover:bg-green-700 text-white px-10 py-4 rounded-full font-bold text-xl shadow-lg hover:shadow-2xl transition-all w-full sm:w-auto">
+                    <i class="fab fa-whatsapp mr-3 text-2xl"></i>WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-16 md:py-24 px-4">
+    <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-12">
+            <div class="inline-block mb-4">
+                <span class="gold-gradient px-6 py-2 rounded-full text-[var(--maroon)] text-sm font-bold">
+                    संपर्क करें
+                </span>
+            </div>
+            <h2 class="text-3xl md:text-5xl font-bold text-[var(--maroon)] mb-4">हमसे जुड़ें</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">
+                किसी भी प्रकार की ज्योतिषीय समस्या या पूजा के लिए संपर्क करें
+            </p>
+        </div>
+        
+        <div class="grid md:grid-cols-3 gap-6 md:gap-8">
+            <div class="glass-card rounded-2xl p-8 text-center shadow-lg">
+                <div class="w-16 h-16 gold-gradient rounded-2xl flex items-center justify-center mx-auto mb-6">
+                    <i class="fas fa-phone text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold text-[var(--maroon)] mb-3">फोन करें</h3>
+                <a href="tel:+919179746121" class="text-2xl font-bold text-gray-800 hover:text-[var(--gold)] transition">
+                    +91 91797 46121
+                </a>
+                <p class="text-gray-600 text-sm mt-2">सुबह 7 बजे - रात 10 बजे</p>
+            </div>
+            
+            <div class="glass-card rounded-2xl p-8 text-center shadow-lg">
+                <div class="w-16 h-16 gold-gradient rounded-2xl flex items-center justify-center mx-auto mb-6">
+                    <i class="fab fa-whatsapp text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold text-[var(--maroon)] mb-3">WhatsApp</h3>
+                <a href="https://wa.me/919179746121" target="_blank" class="text-2xl font-bold text-gray-800 hover:text-[var(--gold)] transition">
+                    +91 91797 46121
+                </a>
+                <p class="text-gray-600 text-sm mt-2">24x7 मैसेज करें</p>
+            </div>
+            
+            <div class="glass-card rounded-2xl p-8 text-center shadow-lg">
+                <div class="w-16 h-16 gold-gradient rounded-2xl flex items-center justify-center mx-auto mb-6">
+                    <i class="fas fa-location-dot text-white text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold text-[var(--maroon)] mb-3">पता</h3>
+                <p class="text-lg text-gray-800 font-semibold">बड़नगर</p>
+                <p class="text-gray-600 text-sm mt-2">जिला उज्जैन, मध्य प्रदेश</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="hero-gradient text-white py-12 px-4">
+    <div class="max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-3 gap-8 mb-8">
+            <div>
+                <div class="flex items-center space-x-3 mb-4">
+                    <div class="w-12 h-12 gold-gradient rounded-full flex items-center justify-center">
+                        <i class="fas fa-om text-white text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold">पंडित अनुराग शर्मा</h3>
+                        <p class="text-gold text-sm">ज्योतिषाचार्य</p>
+                    </div>
+                </div>
+                <p class="text-gray-300 text-sm leading-relaxed">
+                    वैदिक ज्योतिष एवं कर्मकांड के माध्यम से आपके जीवन की समस्याओं का समाधान। 10+ वर्षों का अनुभव।
+                </p>
+            </div>
+            
+            <div>
+                <h4 class="text-lg font-bold text-gold mb-4">त्वरित लिंक</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#home" class="text-gray-300 hover:text-gold transition">मुख्य पृष्ठ</a></li>
+                    <li><a href="#services" class="text-gray-300 hover:text-gold transition">सेवाएं</a></li>
+                    <li><a href="#about" class="text-gray-300 hover:text-gold transition">परिचय</a></li>
+                    <li><a href="#contact" class="text-gray-300 hover:text-gold transition">संपर्क</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4 class="text-lg font-bold text-gold mb-4">संपर्क जानकारी</h4>
+                <ul class="space-y-3 text-sm">
+                    <li class="flex items-start">
+                        <i class="fas fa-phone text-gold mr-3 mt-1"></i>
+                        <a href="tel:+919179746121" class="text-gray-300 hover:text-gold">+91 91797 46121</a>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fab fa-whatsapp text-gold mr-3 mt-1"></i>
+                        <a href="https://wa.me/919179746121" class="text-gray-300 hover:text-gold">WhatsApp पर संपर्क करें</a>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-location-dot text-gold mr-3 mt-1"></i>
+                        <span class="text-gray-300">बड़नगर, जिला उज्जैन, मध्य प्रदेश</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="border-t border-white/20 pt-8 text-center">
+            <p class="text-gray-300 text-sm">
+                © 2024 पंडित अनुराग शर्मा। सर्वाधिकार सुरक्षित।
+            </p>
+            <p class="text-gray-400 text-xs mt-2">
+                विश्वसनीय ज्योतिषीय परामर्श | वैदिक पूजा-पाठ | बड़नगर
+            </p>
+        </div>
+    </div>
+</footer>
+
+<!-- Floating Call Button -->
+<div class="floating-btn md:hidden">
+    <a href="tel:+919179746121" class="gold-gradient w-14 h-14 rounded-full flex items-center justify-center shadow-2xl">
+        <i class="fas fa-phone-alt text-[var(--maroon)] text-xl"></i>
+    </a>
+</div>
+
+<script>
+    // Mobile Menu Toggle
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    
+    mobileMenuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+        const icon = mobileMenuBtn.querySelector('i');
+        icon.classList.toggle('fa-bars');
+        icon.classList.toggle('fa-times');
+    });
+    
+    // Close mobile menu on link click
+    document.querySelectorAll('#mobile-menu a').forEach(link => {
+        link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+            const icon = mobileMenuBtn.querySelector('i');
+            icon.classList.remove('fa-times');
+            icon.classList.add('fa-bars');
+        });
+    });
+    
+    // Smooth scroll with offset for fixed nav
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                const offset = 80;
+                const targetPosition = target.offsetTop - offset;
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+    
+    // Intersection Observer for fade-in animations
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animate-fade-in-up');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+    
+    document.querySelectorAll('.service-card, .glass-card').forEach(el => {
+        observer.observe(el);
+    });
+</script>
+
+<script>(function(){document.addEventListener("click",function(e){var a=e.target.closest("[data-product-id]");if(!a)return;e.preventDefault();var pid=a.getAttribute("data-product-id");if(pid)parent.postMessage({type:"ecto-artifact-link-click",productId:pid},"*")})})();</script>
+<script>(function(){var loc=location.href.replace(/#.*$/,"");var ATTR_NAMES=["data-product-id","data-productid","data-product_id","product-id","productid","product_id","data-source-entity-id","source-entity-id","source_entity_id","data-product","data-metadata","data-meta"];var DATASET_KEYS=["productId","productid","product_id","sourceEntityId","sourceentityid","source_entity_id","product","metadata","meta"];function readProductId(value){if(typeof value!=="string"||value.length===0)return null;if(/^[0-9]{6,}$/.test(value))return value;var match=value.match(/(?:product(?:_|-)?id|source(?:_|-)?entity(?:_|-)?id)["'=:\s]+([0-9]{6,})/i);return match?match[1]:null}function extractProductId(start){for(var node=start;node&&node!==document.body;node=node.parentElement){for(var i=0;i<ATTR_NAMES.length;i++){var attrValue=node.getAttribute&&node.getAttribute(ATTR_NAMES[i]);var attrProductId=readProductId(attrValue);if(attrProductId)return attrProductId}var dataset=node.dataset||null;if(dataset){for(var j=0;j<DATASET_KEYS.length;j++){var dataValue=dataset[DATASET_KEYS[j]];var dataProductId=readProductId(dataValue);if(dataProductId)return dataProductId}}}return null}document.addEventListener("click",function(e){var target=e.target instanceof Element?e.target:null;if(!target)return;var a=target.closest?target.closest("a[href]"):null;if(!a||!a.href||!/^https?:\/\//.test(a.href))return;if(a.href.replace(/#.*$/,"")===loc)return;var productId=extractProductId(target)||extractProductId(a);if(!productId)return;e.preventDefault();parent.postMessage({type:"ecto-artifact-link-click",productId:productId},"*")},true)})();</script></body>
+</html>
